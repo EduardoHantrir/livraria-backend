@@ -1,0 +1,25 @@
+{
+  "name": "livraria-backend",
+  "version": "1.0.0",
+  "description": "Back-end em NodeJs de uma livraria on-line.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "NODEJS",
+    "NODE",
+    "ETEC",
+    "BARUERI",
+    "PW2",
+    "JS"
+  ],
+  "author": "Eduardo Euflausino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
