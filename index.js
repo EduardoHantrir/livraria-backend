@@ -19,6 +19,17 @@ app.use(express.json());
 //Habilita a aplicação a manipular dados de um corpo de dados
 app.use(express.urlencoded({extended:true}));
 
+
+//importação de rotas
+const categoriaController = require('./controller/categoriaController');
+app.use('/', categoriaController);
+
+const autorController = require('./controller/autorController');
+app.use('/', autorController);
+
+const livroController = require('./controller/livroController');
+app.use('/', livroController);
+
 /*
 Teste de Rota HTTP GET, requer dois parametros
 1 - Nome da rota
